@@ -1,5 +1,5 @@
 // From https://raw.githubusercontent.com/KyberNetwork/kyber-tracker/master/config/network/production.js
-module.exports = {
+const constants = {
     "endpoints": {
       "web3Provider": "https://mainnet.infura.io",
       "ethScan": "https://etherscan.io/",
@@ -926,3 +926,5 @@ module.exports = {
       "zh": "zh-cn"
     }
   };
+
+  export default constants;
